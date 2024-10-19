@@ -16,6 +16,6 @@ public class UnitPrinterTest {
         shuttle3.in(new Zealot("질럿",40));
 
         UnitPrinter.printV1(shuttle1);
-        UnitPrinter.printV2(shuttle1)
+        UnitPrinter.printV2(shuttle1);
     }
 }
