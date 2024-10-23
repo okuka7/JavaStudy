@@ -44,4 +44,6 @@ public class HashStart5 {
     static int hashIndex(int value){
         return value % CAPACITY;
     }
+
+    //해시 인덱스를 사용하는 방식은 사실 최악의 경우는 거의 발생하지 않는다. 배열의 크기만 적절하게 잡아주면 대부분 O(1)에 가까운 매우빠른 성능을 보여준다.
 }
